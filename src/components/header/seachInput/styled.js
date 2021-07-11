@@ -14,6 +14,12 @@ export const SeachInputStyled = styled.div`
     position: relative;
     left: 15vw;
 
+    label {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     input {
         border: none;
         margin-left: 1.5rem;

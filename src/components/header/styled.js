@@ -44,11 +44,9 @@ export const HeaderStyle = styled.header`
 
             &:hover {
                 cursor: pointer;
-            }
-
-            &:active {
                 border-bottom: 2px solid black;
             }
+
         }
     }
 
@@ -64,6 +62,10 @@ export const HeaderStyle = styled.header`
             font-size: 0;
             background: #FFF;
             border: none;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 

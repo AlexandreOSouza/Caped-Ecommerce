@@ -6,8 +6,10 @@ import search_logo from '../../../assets/search.svg'
 function InputSearch() {
     return (
         <SeachInputStyled>
-            <img src={search_logo} alt="Search Icon"/>
-            <input type="text" placeholder="Search store"/>
+            <label for="search-input" >
+                <img src={search_logo} alt="Search Icon"/>
+            </label>
+            <input id="search-input" type="text" placeholder="Search store"/>
         </SeachInputStyled>
     )
 }

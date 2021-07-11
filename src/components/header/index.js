@@ -9,16 +9,20 @@ import person from '../../assets/person.svg'
 
 
 function Header() {
+
+    const headerOptions = ['products', 'story', 'manufacturing', 'packaging']
+
     return (
         <HeaderStyle>            
             <img className="logo" src={logo} alt="Caped Logo"/>
             <InputSearch className="input-search" />
 
             <div className="header-options">
-                <button>products</button>
-                <button>story</button>
-                <button>manufacturing</button>
-                <button>packaging</button>
+                {headerOptions.map((option, index) => {
+                    return (
+                        <button key={index}>{option}</button>
+                    )
+                })}
             </div>
 
             <div className="header-actions">
