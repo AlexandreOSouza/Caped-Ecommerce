@@ -8,6 +8,7 @@ import accessories from './assets/accessories.png'
 import activewear from './assets/activewear.png'
 import gift_living from './assets/gift-living.png'
 import inspiration from './assets/inspiration.png'
+import MainContainer from "./components/main";
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
     <>
       <Header />
       <SideBar options={sideBarOptions} />
+      <MainContainer>
+        
+      </MainContainer>
     </>
   );
 }

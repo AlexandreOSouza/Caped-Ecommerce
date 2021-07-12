@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "babel-jest": "^26.6.0",
     "react": "^17.0.2",
+    "react-animated-heart": "^0.0.7-alpha.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "styled-component": "^2.8.0",
